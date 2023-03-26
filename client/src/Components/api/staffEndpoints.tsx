@@ -36,12 +36,12 @@ export const staffReg = async (data:staffData
 
 export const loginClient = async ({ email, companyName, password }: login) => {
   return await axios
-    .post(`${staffAuth}/stafflogin`, { email, companyName, password })
+    .post(`${live}/stafflogin`, { email, companyName, password })
     .then((res) => res.data);
 };
 
 export const getAllClients = async () => {
-  return await axios.get(`${staffAuth}/`).then((res) => res.data);
+  return await axios.get(`${live}/`).then((res) => res.data);
 };
 
 
