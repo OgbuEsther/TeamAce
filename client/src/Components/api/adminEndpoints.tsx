@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "axios"
 
 const adminAuth = "http://localhost:2023/admin";
 export const live = "https://easypayendpoints.onrender.com"
