@@ -18,7 +18,7 @@ const Staffdashhead = () => {
 
   const getAStaff = useQuery({
     queryKey: ["singleStaff"],
-    queryFn: () => getOneStaff(user?._id),
+    // queryFn: () => getOneStaff(user?._id),
   });
 
   const [show, setShow] = useState(false);
