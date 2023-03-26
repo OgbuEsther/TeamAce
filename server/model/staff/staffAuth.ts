@@ -48,12 +48,12 @@ const StaffAuth = new mongoose.Schema<staffSignUp>(
         ref: "staffTransactionHistory",
       },
     ],
-    savingsPlan: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "staffSavingsPlan",
-      },
-    ],
+    // savingsPlan: [
+    //   {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: "staffSavingsPlan",
+    //   },
+    // ],
     houseRentPlan: [
       {
         type: mongoose.Schema.Types.ObjectId,
@@ -67,24 +67,24 @@ const StaffAuth = new mongoose.Schema<staffSignUp>(
       },
     ],
     
-    investmentPlan: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "staffInvestmentPlan",
-      },
-    ],
+    // investmentPlan: [
+    //   {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: "staffInvestmentPlan",
+    //   },
+    // ],
     travelAndTour: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "staffTravelAndTour",
       },
     ],
-    other: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "staffOther",
-      },
-    ],
+    // other: [
+    //   {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: "staffOther",
+    //   },
+    // ],
   },
   { timestamps: true }
 );
