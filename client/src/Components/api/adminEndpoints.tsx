@@ -18,13 +18,13 @@ interface login {
 export const adminReg = async (data:any
  ) => {
   return await axios
-    .post(`${adminAuth}/register`, data)
+    .post(`${live}/register`, data)
     .then((res) => res.data);
 };
 
 export const adminLogin = async ({ companyEmail, password }: login) => {
   return await axios
-    .post(`${adminAuth}/login`, {
+    .post(`${live}/login`, {
       companyEmail,
       password,
     })

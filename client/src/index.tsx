@@ -6,10 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-import { Provider } from "react-redux/es/exports";
+import { Provider } from "react-redux";
 import { Store } from "./Components/Global/Store";
 import { PersistGate } from "redux-persist/integration/react";
-import persistStore from "redux-persist/es/persistStore";
+import {persistStore} from "redux-persist";
 
 const queryClient = new QueryClient();
 let persiststore = persistStore(Store);
