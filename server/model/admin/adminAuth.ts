@@ -7,13 +7,11 @@ const AdminAuth = new mongoose.Schema<adminSignUp>(
   {
     companyCode : {
       type : String,
-    
+
     },
     companyname: {
       type: String,
-
     },
-    
     companyEmail: {
       type: String,
       unique: true,
