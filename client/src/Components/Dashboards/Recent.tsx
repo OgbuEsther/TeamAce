@@ -78,7 +78,7 @@ const Title = styled.div`
 `;
 const Table = styled.div`
   overflow-x: auto;
-  font-size: 17px;
+  font-size: 13px;
   table {
     width: 100%;
   }
