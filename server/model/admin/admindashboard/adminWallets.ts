@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { adminWalletProps } from "./adminModel";
 
-interface Admin extends adminWalletProps, mongoose.Document {}
+export interface Admin extends adminWalletProps, mongoose.Document {}
 
 const adminWalletSchema = new mongoose.Schema<adminWalletProps>({
   balance: {
@@ -9,7 +9,6 @@ const adminWalletSchema = new mongoose.Schema<adminWalletProps>({
     required: true,
   },
 
-  
   credit: {
     type: Number,
   },
