@@ -12,7 +12,6 @@ interface userData {
   password: string;
   companyName: string;
   position: string;
-  _id: string;
 }
 
 interface loginAdmin {

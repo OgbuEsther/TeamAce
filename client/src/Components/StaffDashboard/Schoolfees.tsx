@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Staffhead from "../StaffDashboard/Staffhead";
-import Staffsidebar from "../StaffDashboard/";
+import Staffsidebar from "../StaffDashboard/Staffsidebar";
 import Fees from "../StaffDashboard/Fees";
 
 const Product = () => {

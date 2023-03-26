@@ -9,7 +9,6 @@ const Dashboard = () => {
     <Container>
       <Staffhead />
       <Staffsidebar />
-
       <Staffhome />
     </Container>
   );
