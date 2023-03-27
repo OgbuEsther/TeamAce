@@ -36,7 +36,7 @@ const Superhero = () => {
 
 export default Superhero
 const Img2 = styled.img`
-  height: 480px;
+  height: 500px;
 `
 const Button = styled.div`
     color: #232333;
@@ -102,7 +102,7 @@ const Left = styled.div`
 const Wrapper = styled.div`
     width: 92%;
     display: flex;
-    padding-top: 110px;
+    padding-top: 80px;
 `
 
 const Container = styled.div`
