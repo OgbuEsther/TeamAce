@@ -36,6 +36,12 @@ const Right = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+     @media screen and (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
 `
 const Img = styled.img`
     
@@ -44,18 +50,27 @@ const Left = styled.div`
     width: 48%;
     display: flex;
     border-right: 2px solid #D3D3D3;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: none;
+        margin-top: 36px;
+    }
 `
 const Down = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    flex-wrap: wrap;
+    /* margin-top: 15px; */
 `
 const Top = styled.div`
     h2{
         color: #000;
         font-weight: 600;
         font-size: 32px;
+        margin: 0;
     }
 `
 const Wrapper = styled.div`
@@ -63,6 +78,8 @@ const Wrapper = styled.div`
     width: 92%;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
 `
 
 const Container = styled.div`
