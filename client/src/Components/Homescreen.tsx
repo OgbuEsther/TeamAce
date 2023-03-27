@@ -27,11 +27,11 @@ const Homescreen = () => {
       <br />
       <br />
       <br />
-      {/* <Accept />
+      <Accept />
       <br />
       <br />
       <br />
-      <Methods />
+      {/* <Methods />
       <br />
       <br />
       <br />
