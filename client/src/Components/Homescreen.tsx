@@ -31,11 +31,11 @@ const Homescreen = () => {
       <br />
       <br />
       <br />
-      {/* <Methods />
+      <Methods />
       <br />
       <br />
       <br />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

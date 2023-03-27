@@ -8,7 +8,7 @@ const Methods = () => {
   return (
       <Container>
           <Wrapper>
-              <Top><h2>Add payment methods in a click.</h2></Top>
+              <Top><h1>Add payment methods in a click.</h1></Top>
               <Boxhold>
                   <Card>
                       <Img src={img} />
@@ -70,6 +70,10 @@ const Card = styled.div`
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     overflow: hidden;
     border-radius: 10px;
+    margin-top: 20px;
+    @media screen and (max-width: 768px){
+        width: 340px;
+    }
 `
 const Boxhold = styled.div`
     width: 100%;
@@ -77,12 +81,22 @@ const Boxhold = styled.div`
     align-items: center;
     margin-top: 40px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 500px){
+        justify-content: center;
+        display: flex;
+    }
 `
 const Top = styled.div`
-    h2{
-        color: #000;
-        font-weight: 600;
-        font-size: 32px;
+    h1{
+        color: #00214F;
+        /* text-align: center; */
+        @media screen and (max-width: 425px) {
+            font-size: 26px;
+        }
+         @media screen and (max-width: 375px) {
+            font-size: 22px;
+        }
     }
 `
 const Wrapper = styled.div`
@@ -90,6 +104,7 @@ const Wrapper = styled.div`
   width: 92%;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 `
 const Container = styled.div`
     width: 100%;

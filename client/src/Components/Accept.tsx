@@ -65,6 +65,7 @@ const Down = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
     /* margin-top: 15px; */
 `
 const Top = styled.div`
