@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import img from "./Assets/old.png"
 import img2 from "./Assets/happy.png"
+import img3 from "./Assets/jump.png"
 
 const Methods = () => {
   return (
@@ -26,9 +27,9 @@ const Methods = () => {
                   </Card>
 
                   <Card>
-                      <Img src={img} />
+                      <Img src={img3} />
                       <Down>
-                          <h3>Enjoy Easypay payment method</h3>
+                          <h3>Overcome payment declines</h3>
                           <Started>Get started</Started>
                       </Down>
                   </Card>
@@ -53,7 +54,7 @@ const Down = styled.div`
     h3{
         font-size: 20px;
         line-height: 1.4;
-        width: 190px;
+        width: 220px;
     }
 `
 const Img = styled.img`

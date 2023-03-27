@@ -32,6 +32,9 @@ const Homescreen = () => {
       <br />
       <br />
       <Methods />
+      <br />
+      <br />
+      <br />
       <Footer />
     </div>
   );
