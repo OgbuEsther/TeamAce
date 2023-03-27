@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "./Assets/old.png"
+import img2 from "./Assets/happy.png"
 
 const Methods = () => {
   return (
@@ -17,9 +18,9 @@ const Methods = () => {
                   </Card>
 
                   <Card>
-                      <Img src={img} />
+                      <Img src={img2} />
                       <Down>
-                          <h3>Enjoy Easypay payment method</h3>
+                          <h3>You decide exactly how to get paid</h3>
                           <Started>Get started</Started>
                       </Down>
                   </Card>
