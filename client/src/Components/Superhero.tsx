@@ -109,6 +109,9 @@ const Top = styled.div`
   @media screen and (max-width: 500px) {
    font-size: 40px;
   }
+  @media screen and (max-width: 320px) {
+   font-size: 33px;
+  }
     }
 `
 const Left = styled.div`
