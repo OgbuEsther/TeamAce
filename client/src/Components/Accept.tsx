@@ -8,7 +8,7 @@ const Accept = () => {
   return (
       <Container>
           <Wrapper>
-              <Top><h2>The new way to accept payments</h2></Top>
+              <Top><h1>The new way to accept payments</h1></Top>
               <Down>
                   <Left>
                       <Img src={img} />
@@ -44,7 +44,9 @@ const Right = styled.div`
     }
 `
 const Img = styled.img`
-    
+    @media screen and (max-width: 500px) {
+        height: 250px;
+    }
 `
 const Left = styled.div`
     width: 48%;
@@ -66,11 +68,15 @@ const Down = styled.div`
     /* margin-top: 15px; */
 `
 const Top = styled.div`
-    h2{
-        color: #000;
-        font-weight: 600;
-        font-size: 32px;
-        margin: 0;
+    h1{
+        color: #00214F;
+        /* text-align: center; */
+        @media screen and (max-width: 425px) {
+            font-size: 26px;
+        }
+         @media screen and (max-width: 375px) {
+            font-size: 22px;
+        }
     }
 `
 const Wrapper = styled.div`
@@ -86,4 +92,5 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 `
