@@ -23,7 +23,7 @@ const Homescreen = () => {
       <br />
       <br />
       <br />
-      <Team />
+      {/* <Team />
       <br />
       <br />
       <br />
@@ -35,7 +35,7 @@ const Homescreen = () => {
       <br />
       <br />
       <br />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

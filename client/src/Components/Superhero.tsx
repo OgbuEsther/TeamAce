@@ -103,6 +103,7 @@ const Wrapper = styled.div`
     width: 92%;
     display: flex;
     padding-top: 80px;
+    flex-wrap: wrap;
 `
 
 const Container = styled.div`
