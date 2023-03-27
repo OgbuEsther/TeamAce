@@ -37,6 +37,9 @@ const Superhero = () => {
 export default Superhero
 const Img2 = styled.img`
   height: 500px;
+  @media screen and (max-width: 500px) {
+    height: 300px;
+  }
 `
 const Button = styled.div`
     color: #232333;
@@ -66,6 +69,9 @@ const Right = styled.div`
         display: flex;
         justify-content: center;
     }
+  @media screen and (max-width: 500px) {
+    margin-top: 30px;
+  }
 `
 const Text = styled.div`
     margin-left: 15px;
@@ -100,6 +106,9 @@ const Top = styled.div`
     @media screen and (max-width: 768px) {
         font-size: 55px;
     }
+  @media screen and (max-width: 500px) {
+   font-size: 40px;
+  }
     }
 `
 const Left = styled.div`
