@@ -23,11 +23,11 @@ const Homescreen = () => {
       <br />
       <br />
       <br />
-      {/* <Team />
+      <Team />
       <br />
       <br />
       <br />
-      <Accept />
+      {/* <Accept />
       <br />
       <br />
       <br />
