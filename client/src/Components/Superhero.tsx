@@ -61,6 +61,11 @@ const Right = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 `
 const Text = styled.div`
     margin-left: 15px;
@@ -92,12 +97,18 @@ const Top = styled.div`
     line-height: 1.1;
     font-weight: 600;
     margin: 0;
+    @media screen and (max-width: 768px) {
+        font-size: 55px;
+    }
     }
 `
 const Left = styled.div`
     width: 48%;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
 `
 const Wrapper = styled.div`
     width: 92%;
