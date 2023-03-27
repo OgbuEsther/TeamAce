@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Join from "./Join/Join";
+import Methods from "./Methods";
 import Solutions from "./Solutions/Solutions";
 import Superhero from "./Superhero";
 import Team from "./Team/Team";
@@ -19,9 +20,6 @@ const Homescreen = () => {
       <br />
       <br />
       <Superhero />
-      {/* <Hero /> */}
-      {/* <Solutions /> */}
-      {/* <Join /> */}
       <br />
       <br />
       <br />
@@ -30,11 +28,10 @@ const Homescreen = () => {
       <br />
       <br />
       <Accept />
-      {/* <Solutions /> */}
       <br />
       <br />
       <br />
-      {/* <Designed /> */}
+      <Methods />
       <Footer />
     </div>
   );
